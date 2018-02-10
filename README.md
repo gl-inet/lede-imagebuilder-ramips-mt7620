@@ -40,6 +40,8 @@ For GL-MT300A of v2.27:
 $ ./gl_image -i v1 -p gl-mt300a -v 2.27
 ```  
 
+We can use ourselves files with -f option, value is files directory name.  
+
 Available image or profile is listed in images.json.  
 
 
