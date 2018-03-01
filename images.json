@@ -7,7 +7,7 @@
 	},
 	"profiles": {
 		"gl-mt300a": {
-			"include": "",
+			"include": "kmod-mmc kmod-sdhci kmod-sdhci-mt7620",
 			"exclude": ""
 		},
 		"gl-mt300n": {
