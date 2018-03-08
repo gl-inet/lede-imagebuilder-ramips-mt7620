@@ -23,7 +23,8 @@ $ cd lede-imagebuilder-ramips-mt7620
 ## Configuration  
 
 You can change images.json file to install or remove packages for your  
-preference.  
+preference. Note that "-pkgname" in the package list means remove "pkgname"  
+from the package list.
 
 ## Create Image  
 
@@ -32,7 +33,11 @@ We can use gl_image utility to create image quickly. You can issue
 
 For GL-MT300N of v2.27:  
 ```bash  
+Stoke firmware:  
 $ ./gl_image -i v1 -p gl-mt300n -v 2.27
+
+Clean firmware:
+$ ./gl_image -i clean -p gl-mt300n -v 2.27
 ```  
 
 For GL-MT300A of v2.27:  
